@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container {
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.block {
+    margin: 0 auto;
+    max-width: 500px;
+    background: #2C2C2C;
+    border-radius: 14px;
+    padding: 40px 20px 40px;
+    text-align: center;
+}
+.header__top {
+    padding: 30px 0 0;
+}
+.header__bottom {
+    max-width: 530px;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__img {
+    width: 60%;
+    height: 60%;
+}
+.header__bottom-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.header__bottom-title span {
+    display: block;
+}
+.header__bottom-descr {
+    margin-bottom: 20px;
+}
+.header__bottom-link {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #2A2A2A;
+    font-weight: 700;
+}
+.future {
+    padding: 115px 0 140px;
+}
+.future__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.future__item {
+    width: 270px;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    padding: 45px 25px;
+    text-align: center;
+}
+.artem {
+    padding-bottom: 115px;
+}
+.lisa {
+    padding-bottom: 115px;
+}
+
+@media (max-width: 930px) {
+    .header__bottom-descr {
+        font-size: 13px;
+    }
+    .header__bottom-title {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .future__wrapper {
+        flex-direction: column;
+    }
+    .future__item {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 730px) {
+    .header__top {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .header__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__bottom {
+        text-align: center;
+    }
+    .header__img {
+        width: 100%;
+        height: 100%;
+    }
+    .future {
+        padding: 40px 0 100px;
+    }
+}
+@media (max-width: 480px) {
+    .future__item-title {
+        font-size: 13px;
+    }
+    .artem__block-text, .lisa__block-text {
+        font-size: 13px;
+    }
+}
+@media (max-width: 380px) {
+    .lisa__block-img, .artem__block-img {
+        width: 80%;
+    }
+}
