@@ -110,6 +110,9 @@ body {
     right: 40px;
     color: #71B6E7;
 }
+.swiper-pagination-bullet {
+    background-color: #71B6E7;
+}
 
 @media (max-width: 930px) {
     .header__bottom-descr {
