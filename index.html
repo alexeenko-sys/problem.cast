@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>В чём проблема?</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -40,80 +41,98 @@
         <div class="container">
             <div class="future__wrapper">
                 <div class="future__item">
-                    <img class="future__item-img" src="images/future-3.png" alt="hobby">
-                    <h3 class="future__item-title">Дружба между парнем и девушкой</h3>
-                </div>
-                <div class="future__item">
-                    <img class="future__item-img" src="images/future-2.png" alt="relationships">
-                    <h3 class="future__item-title">Взаимоотношения между людьми</h3>
-                </div>
-                <div class="future__item">
-                    <img class="future__item-img" src="images/future-1.png" alt="life">
+                    <img class="future__item-img" src="images/future-3.png" alt="life">
                     <h3 class="future__item-title">Жизнь и существование.
-                        Различия и сходства</h3>
+                        Различия и сходства.</h3>
+                </div>
+                <div class="future__item">
+                    <img class="future__item-img" src="images/future-1.png" alt="zoneOfComfort">
+                    <h3 class="future__item-title">Зона комфорта. 30-дневные вызовы и способы достижения цели.</h3>
+                </div>
+                <div class="future__item">
+                    <img class="future__item-img" src="images/future-2.png" alt="optimism vs pessimism">
+                    <h3 class="future__item-title">Оптимизм против пессимизма. Последствия и преимущества.</h3>
                 </div>
             </div>
         </div>
     </section>
-    <section class="artem">
+    <section class="about">
         <div class="container">
-            <div class="block artem__block">
-                <p class="artem__block-text">Меня зовут Артём и мне 15 лет. 
-                    Занимаюсь программированием
-                    [сайтами], изучением Английского
-                    языка и математикой.</p>
-                <img class="artem__block-img" src="images/artem-1.jpg" alt="artem">
-                <p class="artem__block-text">Также у меня есть блог о вёрстке
-                    dozen.knowledge. Там я
-                    делюсь своими навыками вёрстки
-                    сайтов.
-                    Если интересно - подпишись на
-                    телеграм, инстаграм и ютуб этого
-                    блога.</p>
-                <img class="artem__block-img" src="images/artem-3.jpg" alt="artem">
-                <p class="artem__block-text">
-                        Кстати говоря, этот сайт был
-                        свёрстан мной.
-                        <p class="artem__block-text">Я и моя подруга Лиза решили
-                            попробовать себя в новой сфере
-                            подкастов...</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="images/lisa.jpg" alt="lisa" class="swiper-slide__img">
+                            <div class="swiper-slide__block">
+                                <h3 class="swiper-slide__block-title">О Лизе</h3>
+                                <p class="swiper-slide__block-text">Привет! Меня зовут Лиза
+                                    и я ведущая подкаста
+                                    «В чём проблема?».
+                                    Мне 16 лет и я учусь в
+                                    10 классе. В свои 15
+                                    написала книгу
+                                    CHOICE-ВЫБОР.
+                                    Увлекаюсь моделингом,
+                                    написанием книг, веду
+                                    блог в инстаграм
+                                    gorgo.elizabeth также
+                                    активно веду TikTok
+                                    elizaveta_gorgopko,
+                                    являюсь сторисмейкером
+                                    и просто жизнерадостным
+                                    и целеустремлённым
+                                    человеком.
+                                    Почему я решила начать
+                                    записывать подкасты?
+                                    Потому что я люблю
+                                    болтать и дискуссировать
+                                    на разные темы.
+
+                                    Рада с тобой познакомиться.
+                                    Встретимся в новом
+                                    выпуске подкаста
+                                    «В чём проблема?»</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="images/artem.jpg" alt="artem" class="swiper-slide__img">
+                            <div class="swiper-slide__block">
+                                <h3 class="swiper-slide__block-title">Об Артёме</h3>
+                                <p class="swiper-slide__block-text">Меня зовут Артём и мне 15 лет.
+                                    Занимаюсь программированием
+                                    [сайтами], изучением Английского
+                                    языка и математикой.
+
+                                    Также у меня есть блог о вёрстке
+                                    dozen.knowledge. Там я
+                                    делюсь своими навыками вёрстки
+                                    сайтов.
+                                    Если интересно - подпишись на
+                                    телеграм, инстаграм и ютуб этого
+                                    блога.
+
+                                    Кстати говоря, этот сайт был
+                                    свёрстан мной.
+
+                                    Я и моя подруга Лиза решили
+                                    попробовать себя в новой сфере
+                                    подкастов.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"><img src="images/next.png" alt=""></div>
             </div>
         </div>
     </section>
-    <section class="lisa">
-        <div class="container">
-            <div class="block lisa__block">
-                <p class="lisa__block-text">Привет! Меня зовут Лиза 
-                    и я ведущая подкаста 
-                    «В чём проблема?».
-                    Мне 16 лет и я учусь в 
-                    10 классе. В свои 15 
-                    написала книгу 
-                    CHOICE-ВЫБОР. </p>
-                    <img class="lisa__block-img" src="images/lisa-1.jpg" alt="lisa">
-                <p class="lisa__block-text">Увлекаюсь моделингом, 
-                    написанием книг, веду 
-                    блог в инстаграм 
-                    gorgo.elizabeth также 
-                    активно веду TikTok 
-                    elizaveta_gorgopko, 
-                    являюсь сторисмейкером 
-                    и просто жизнерадостным 
-                    и целеустремлённым 
-                    человеком.</p>
-                    <img class="lisa__block-img" src="images/lisa-3.jpg" alt="">
-                <p class="lisa__block-text">Почему я решила начать 
-                    записывать подкасты? 
-                    Потому что я люблю 
-                    болтать и дискуссировать 
-                    на разные темы.</p>
-                    <p class="lisa__block-text">Рада с тобой познакомиться.
-                        Встретимся в новом 
-                        выпуске подкаста 
-                        «В чём проблема?»</p>
-            </div>
-        </div>
-    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
